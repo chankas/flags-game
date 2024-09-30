@@ -6,7 +6,7 @@ import { InfoGame } from './components/InfoGame'
 import './App.css'
 
 function App() {
-  const MAX = 5
+  const MAX = 20
   const [lang, setLang] = useState('es')
 
   const [countries, setCountries] = useState([])
